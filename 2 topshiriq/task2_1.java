@@ -1,3 +1,6 @@
+// n soni berilgan. Geometrik shaklni ekranga chiqaring.
+// n nechta bo'lsa diaganaliga chiqadigan  yulduzchalar soni ham shuncha bo'lishi kerak.
+
 public class task2_1 {
     public static void main(String[] args) {
         int n = 5;
