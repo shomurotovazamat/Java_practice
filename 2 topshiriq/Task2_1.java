@@ -1,13 +1,14 @@
 // n soni berilgan. Geometrik shaklni ekranga chiqaring.
-// n nechta bo'lsa diaganaliga chiqadigan yulduzchalar soni ham shuncha bo'lishi kerak.
+// n nechta bo'lsa diaganaliga chiqadigan  yulduzchalar soni ham shuncha bo'lishi kerak.
 
-public class task2_3 {
+public class Task2_1 {
     public static void main(String[] args) {
-        int n = 8;
+        int n = 5;
+
         for (int i = 0; i < n; i++) {
-            for (int j = n - 1; j >= i; j--) {
+            for (int j = 0; j < n; j++) {
                 if (i == j) {
-                    System.out.print("*");
+                    System.out.print(" * ");
                 } else {
                     System.out.print(" ");
                 }
@@ -15,4 +16,5 @@ public class task2_3 {
             System.out.println();
         }
     }
+
 }
