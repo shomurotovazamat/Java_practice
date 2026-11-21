@@ -5,10 +5,5 @@ public class Task2_2a {
         int power = 1;
 
 
-
-
-
-
-
     }
 }
